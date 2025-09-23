@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/home-background.png);
+}
+
+.cabecalho {
+    display: flex;
+    padding: 1.2vw;
+    padding-bottom: 2vw;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.021));
+}
+
+.sobre {
+    margin-top: 5vw;
+    display: flex;
+    justify-content: center;
+    gap: 20vw;
+}
+
+.textoDoSobre h1 {
+    color: #E93D50;
+    text-decoration: underline;
+    text-shadow: -2px 4px 4px rgba(0, 0, 0, 0.699)
+}
+
+
+.sobre img {
+    width: 25vw;
+    height: auto;
+}
+
+.textoDoSobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    width: 25vw;
+    font-size: 1vw;
+}
+
+.fotoMatriz img{
+    border: 2px solid rgba(0, 0, 0, 0.438);
+    border-radius: 20px;
+}
