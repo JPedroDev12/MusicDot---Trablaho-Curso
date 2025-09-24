@@ -20,69 +20,33 @@ body {
     background: linear-gradient(rgba(0, 0, 0, 0.329), rgba(0, 0, 0, 0.021));
 }
 
-.sobre {
-    margin-top: 5vw;
+.historiaParte {
+    margin-top: 2vw;
     display: flex;
-    justify-content: center;
-    gap: 20vw;
+    justify-content: space-evenly;
 }
 
-.textoDoSobre h1 {
-    color: #E93D50;
-    text-decoration: underline;
-    text-shadow: -2px 4px 4px rgba(0, 0, 0, 0.699)
-}
-
-.textoDoSobre a {
-    color: #fa5467;
-}
-
-
-.textoDoSobre {
+.textoHistoria {
     display: flex;
     flex-direction: column;
     justify-content: right;
+    gap: 1.2vw;
+    text-align: justify;
     width: 25vw;
     font-size: 1vw;
 }
 
-.sobreNos {
-    margin-bottom: 2vw;
-}
-
-.fotoMatriz img{
-    border: 2px solid #E93D50;
-    border-radius: 20px;
-    width: 25vw;
-    height: auto;
-}
-
-.assinatura {
-    font-size: 1.2vw;
-}
-
-.assinatura a {
-    color: #E93D50;
-}
-
-.diferenciais {
-    margin-top: 2vw;
-    display: flex;
-    gap: 1.2vw;
-    flex-direction: column;
-    align-items: center;
-}
-
-.diferenciais h1 {
+.historiaParte h1 {
     color: #E93D50;
     text-decoration: underline;
     text-shadow: -2px 4px 4px rgba(0, 0, 0, 0.699)
 }
 
-.lista ul li::marker{
-    color: #d82439;
+.fotoFamilia img{
+    border: 2px solid #E93D50;
+    border-radius: 20px;
+    width: 25vw;
+    height: auto;
+    align-items: center;
 }
 
-.lista {
-    font-size: 1.1vw;
-}
